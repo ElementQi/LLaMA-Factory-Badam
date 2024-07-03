@@ -225,3 +225,6 @@ bash examples/extras/fsdp_qlora/single_node.sh
 ```bash
 llamafactory-cli train examples/extras/pissa/llama3_lora_sft.yaml
 ```
+
+#### Delta Fine-Tuning
+CUDA_VISIBLE_DEVICES=0 llamafactory-cli train examples/extras/delta/llama3_delta_sft_bitsandbytes.yaml
